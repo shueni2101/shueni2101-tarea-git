@@ -1,0 +1,165 @@
+body{
+    margin: 2px;
+    background: url("fondo.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.padre{
+    box-sizing: border-box;
+    padding: 30px;
+}
+.titulo{
+    color:white;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.eleccion ul{
+    padding: 10px;
+    align-items: center;
+    padding-left:25%;
+    }
+    
+    .eleccion ul li {
+        text-decoration: none;
+        background: black;
+        display: inline-block;
+        padding: 15px;
+        border: 3px groove rgb(13, 13, 197);
+        text-align: center;
+        border-radius: 15px;
+    
+    }
+    
+    .eleccion a{
+        text-decoration: none;
+        display: block;
+        padding: 7px;
+        text-align: center;
+        font-size: 20px;
+        color:rgb(13, 13, 197); ;
+        transition: ease 500ms;
+    }
+
+    .eleccion a:hover{
+        font-size: 25px;
+       }
+
+
+.elegirCinema{
+   display: inline-block;
+    margin-left: 35%;
+
+}
+
+.cinema, .cinemaUno, .cinemaDos{
+    border: 4px groove black;
+    margin: 20px;
+    height: 370px;
+    background: white;
+}
+
+.imagenesCine{
+    width: 100%;
+    height: 60%;
+}
+h5{
+  font-size: 18px;
+  text-align: center;
+}
+.elegirCinema div p{
+    text-align: center;
+}
+.elegirCinema div input{
+    
+    background: rgb(247, 241, 241);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -12px;
+    margin-left: 35%;
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px red;
+}
+.footer{
+    display: flex;
+    padding: 60px;
+    background: black;
+    margin-bottom: -20px;
+    border:2px groove black;
+    border-radius: 10px;
+    }
+    
+    .redesSociales{
+    align-self: flex-end;
+    margin-left: 200px;
+    margin-bottom: -20px;
+    }
+    .redesSociales a{
+      text-decoration: none;
+      color: rgb(45, 112, 156);
+      font-size: 13px;
+    
+    }
+    .Copyright{
+       margin-left: 40px;
+      
+    }
+    
+    .Copyright p {
+        font-size: 17px;
+        color: blanchedalmond;
+        margin-bottom: -20px;
+        margin-left: 50px;
+        
+        }
+    .Copyright p  a{
+    font-size: 17px;
+    color: blanchedalmond;
+    }
+
+    @media only screen and (max-width: 550px){
+        body{
+            width: 100%;
+            height: auto;
+        } 
+        .padre{
+            width: 100%;
+        }
+        .titulo{
+            width: 100%;
+            font-size: 10px;
+        }
+        .elegirCinema{
+            height: auto;
+            width: 100%;
+        }
+        img{
+            height: auto;
+            width: 100%;
+            padding-left: auto;
+            margin: auto;
+        }  
+        .footer{
+            width: 60%;
+            height: 20px;
+        }
+        .redesSociales{
+            margin-left: -50px;
+            margin-top: -200px;
+            width: 100%;
+        }
+        .Copyright{
+            width: 100%;
+            margin-left: -50px;
+            margin-top: -70px;
+        }
+    }

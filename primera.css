@@ -1,0 +1,211 @@
+body{
+    margin: 2px;
+    background: url("fondo.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+.padre{
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.titulo{
+    color:white;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.eleccion ul{
+padding: 10px;
+align-items: center;
+padding-left:25%;
+}
+
+.eleccion ul li {
+    text-decoration: none;
+    background: black;
+    display: inline-block;
+    padding: 15px;
+    border: 3px groove rgb(13, 13, 197);
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.eleccion a{
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(13, 13, 197); ;
+    transition: ease 500ms;
+}
+
+.eleccion a:hover{
+ font-size: 25px;
+}
+p{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 60px;
+    text-shadow:2px 2px #ff0000; ;
+    
+}
+.funciones {
+    
+    display: flex;
+}
+
+.sagaStarWars{
+    padding-left: 22%;
+    padding-right: 10%;
+}
+.sagaStarWars img {
+ width: 270px;
+ height: 300px;
+ transition: ease 500ms;
+ padding-left: 25%;
+ padding-right: 3%;
+ padding-bottom: 5%;
+ padding-top: 10%;
+}
+
+
+.a{
+ padding-left: 20%;
+ padding-right: 3%;
+    position: relative;
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+    transition: ease 500ms;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px 
+}
+.a:hover{
+    font-size: 18px;
+    color:red;
+   }
+   
+
+.sagaStarWars img:hover {
+    width: 290px;
+    height: 320px;
+}
+ .sagaStarWars {
+     display: inline-flex;
+     flex-wrap: wrap;
+ }
+ .compraEntrada{
+   display: flex;
+   align-items: flex-start;
+    
+ }
+ .compraEntrada input {
+    
+    align-self: flex-end;
+    margin-top: 50px;
+    margin-left: 39%;
+    padding: 20px;
+    background: black;
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: 5px 5px #434343;
+    transition: ease 400ms;
+  }
+ 
+  .compraEntrada input:hover {
+    padding: 25px;
+    text-shadow: 0 0 5px #fff, 0 0 10px rgb(199, 65, 65), 0 0 15px rgb(202, 71, 71), 0 0 20px;
+  }
+
+.bannerIzquierda{
+    float: left;
+    position: absolute;
+    left: 30px;
+    top: 70%;
+    z-index: -1;
+}
+.bannerDerecha{
+    float: right;
+    position: sticky;
+    height: 100%;
+    margin-right:20px ;
+    margin-top: -1190px;
+}
+.footer{
+display: flex;
+margin-top: -7px;
+padding: 50px;
+background: black;
+}
+
+.redesSociales{
+align-self: flex-end;
+margin-left: 200px;
+margin-bottom: -20px;
+}
+.redesSociales a{
+  text-decoration: none;
+  color: rgb(45, 112, 156);
+  font-size: 13px;
+
+}
+.Copyright{
+   margin-left: 40px;
+  
+}
+
+.Copyright p {
+    font-size: 17px;
+    color: blanchedalmond;
+    margin-bottom: -20px;
+    margin-left: 50px;
+    
+    }
+.Copyright p  a{
+font-size: 17px;
+color: blanchedalmond;
+}
+
+@media only screen and (max-width: 550px){
+    body{
+        width: 100%;
+        height: auto;
+    } 
+    .padre{
+        width: 100%;
+        border-style: none;
+    }
+    .titulo{
+        width: 100%;
+        font-size: 10px;
+    }
+    img{
+        height: auto;
+        width: 100%;
+        padding-left: auto;
+        margin: auto;
+    }  
+    .banner_covid{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+        margin: auto;
+    }
+    .redesSociales{
+        width: 100%;
+    }
+    .Copyright{
+        width: 100%;
+        margin-left: -50px;
+    }
+}
